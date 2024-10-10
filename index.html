@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rservation Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Reservation Form</h2>
+        <form id="reservation">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" placeholder="Enter Your Full Name">
+            <small class="Error" id="nameError"></small>
+
+            <label for="email">Email:</label>
+            <input type="text" id="email" placeholder="Enter Your Email">
+            <small class="Error" id="emailError"></small>
+
+            <label for="phone">Phone Number:</label>
+            <input type="text" id="phone" placeholder="Enter Your Phone Number">
+            <small class="Error" id="phoneError"></small>
+
+            <label for="date">Reservation Date:</label>
+            <input type="date" id="date">
+            <small class="Error" id="dateError"></small>
+
+            <button type="Submit">Confirm</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
